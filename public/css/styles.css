@@ -1,0 +1,126 @@
+@import './home.css';
+@import'./general.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+/* HEADER */
+.home__header {
+    background-color: var(--coloramarillo);
+}
+
+.home__banner__photo img {
+    display: none;
+}
+.home__logo__photo a img {
+    width: 40%;
+    padding: 5%;
+}
+.home__titleshop {
+    text-align: center;
+    padding: 5% 0% 0% 0%
+}
+
+.home__button__search {
+    font-size: 15px;
+    margin: 0 0 3px 5px ;
+}
+.home__section__products {
+    margin-top: 30px;
+    background-color: var(--colorGrisClaro);
+}
+.home__article {
+
+}
+.home__section__product__photo__primary {
+
+    width: 230px;
+    margin: 15px 0 30px 100px;
+    border: 5px;
+}
+.home__prices {
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin: 0 70px 5px;
+}
+.home__discount-description {
+    font-size: 16px;
+    font-family: 'Roboto'; 
+    margin: 0 70px 5px;
+}
+
+.home__navegador { 
+ font-family: 'Roboto';
+ font-size: 12px;
+}
+.home__title {
+font-family: 'Roboto';
+font-size: 24px;
+text-align: center;
+margin: 0px 36px 10px;
+}
+.home__main {
+    background-color: var(--colorGrisClaro);
+}
+a {
+    text-decoration: none;
+    color: var(--grisOscuro);
+}
+li {
+    list-style: none;
+}
+
+ul,ol {
+    padding: 0;
+}
+p {
+    font-family: 'Roboto';
+    font-size: 12px;
+    
+}
+h4 {
+    text-align: center;
+}
+.home__burger-menu button{
+text-align: center;
+margin-bottom: 30px;
+margin-left: 170px;
+
+background-color: var(--colorCeleste);
+color: rgb(255, 255, 255);
+padding: 10px 15px;
+border-radius: 11%;
+border: none;
+font-size: 20px;
+}
+
+
+
+/* FOOTER */
+.home__footer  {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35% 25% 0% 15%;
+    text-align: center;
+}
+.home__footer__section h4 {
+text-align: center; 
+font-size: 16px;
+font-family: 'Roboto';
+}
+.home__footer__article p br {
+margin-top: 5px;
+text-align: center;
+font-family: 'Roboto';
+padding: 0 0 20px;
+margin-bottom: 20px;
+}
+.home__footer__article__img {
+    text-align: center;
+    margin-top: 10%;
+    color: var(--colorCeleste);
+    font-size: 30px;
+    
+}
