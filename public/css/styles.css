@@ -44,7 +44,13 @@
     font-family: 'Roboto';
     margin: 0 70px 5px;
 }
-.home__discount-description {
+.home__discount{
+    font-size: 16px;
+    font-family: 'Roboto'; 
+    margin: 0 70px 5px;
+    color: var(--colorVerde);
+}
+.home__description {
     font-size: 16px;
     font-family: 'Roboto'; 
     margin: 0 70px 5px;
@@ -121,6 +127,6 @@ margin-bottom: 20px;
     text-align: center;
     margin-top: 10%;
     color: var(--colorCeleste);
-    font-size: 30px;
-    
+    font-size: 2em;
+    margin-bottom: 10px;
 }
